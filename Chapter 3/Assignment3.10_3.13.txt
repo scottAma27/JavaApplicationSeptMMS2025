@@ -1,0 +1,52 @@
+/* 3.10 Compare if and whileSimilarities:
+Similarities: Both are control flow statements.Both check a condition (if it’s true, they execute code).
+Both can be used to control which code runs next.
+Differences: if → Single execution. Checks condition once, 
+runs code once if true.while → Loop. Checks condition, runs code, checks again… repeats until false.
+*/
+
+// Example
+// if → one-time check
+if (x > 0) {
+    System.out.println("Positive");
+}
+
+// while → loop until false
+while (x > 0) {
+    System.out.println("Still positive");
+    x--;
+}
+
+// 3.12 Combining control statements
+
+// 1.Nesting: Put one control statement inside another.
+if (x > 0) {
+ while (y < x) {
+     System.out.println(y);
+     y++;
+ }
+}
+
+// 2.Sequencing: Put statements one after another.
+(x > 0) {
+ System.out.println("Positive");
+}
+while (y < 5) {
+ System.out.println(y);
+ y++;
+}
+
+// 3.13 Repetition types
+// Sum of first 100 positive integers: Use a for loop with a fixed number of iterations (1 to 100).
+
+sum = 0;
+for (int i = 1; i <= 100; i++) {
+  sum += i;
+}
+// Sum of an arbitrary number of positive integers: Use a while loop with sentinel-controlled repetition (e.g., enter -1 to stop).
+
+Scanner scan = new Scanner(System.in);
+int sum = 0, num;
+while ((num = scan.nextInt()) != -1) {
+  sum += num;
+}
