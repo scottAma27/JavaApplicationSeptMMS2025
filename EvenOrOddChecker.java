@@ -33,6 +33,7 @@ public class EvenOrOddChecker{
 /*
 	write a java program to accept 10 numbers, find the sum of the first 5th and 10th number
 	and multiply it by the sum of the 3rd 8th and 2nd number and subtract the result from
-	the sum of 4th, 7th and 9th number. Check if the result of your last calculation is greater that or equal to 100
-		if true, disply hurrayyy i did it otherwise, disply i still need to learn more in java
+	the sum of 4th, 7th and 9th number. Check if the result of your last calculation is greater than or equals to 100
+	if true, disply hurrayyy i did it. otherwise, disply i still need to learn more in java
 */
+
