@@ -15,4 +15,3 @@ public class UsingRandomClass{
 	}
 }
 // Go and write a code that will generate a password of 15 digit password of caeacter and words together
-//

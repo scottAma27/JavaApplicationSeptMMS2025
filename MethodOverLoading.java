@@ -1,3 +1,5 @@
+// Method is small building block of code used to perfurm a specific tax 
+
 import java.util.Scanner;
 
 public class MethodOverLoading{

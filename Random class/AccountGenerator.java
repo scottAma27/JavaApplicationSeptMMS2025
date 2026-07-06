@@ -5,10 +5,12 @@ public class AccountGenerator {
         Random rand = new Random();
         StringBuilder account = new StringBuilder("30");
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 8; i++) {
             account.append(rand.nextInt(10));
         }
 
         System.out.println("Account number: " + account);
+		
+		System.out.println(account.length());
     }
 }

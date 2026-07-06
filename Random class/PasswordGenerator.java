@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.*;
 
 public class PasswordGenerator {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class PasswordGenerator {
         
 
         for (int i = 0; i < passwordLength; i++) {
-            int randomIndex = random.nextInt(allChars.length());
+            int randomIndex = random.nextInt(88);
             password.append(allChars.charAt(randomIndex));
         }
         
@@ -26,3 +26,4 @@ public class PasswordGenerator {
         System.out.println("Your random 15-character password is: " + password.toString());
     }
 }
+// charAt is used to look for single character/index given to it by the random code 

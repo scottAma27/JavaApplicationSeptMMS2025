@@ -1,0 +1,14 @@
+/*	7.20 + 1 + 2: Card, DeckOfCards with Enums + Poker Hand Evaluation
+
+	public enum Face {
+    ACE, DEUCE, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING
+	}
+*/
+
+/*
+	Suit.java
+	
+	pSuit.javaublic enum Suit {
+    CLUBS, DIAMONDS, HEARTS, SPADES
+	}
+/*
