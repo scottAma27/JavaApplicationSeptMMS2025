@@ -3,13 +3,13 @@
 	1. list: it's an interface meaning, it does not work on it own 
 		add: it is used to add element to the list 
 		get: it is used to get an element or value from the list by usng the index or the name.
-		set: helps to change any element/value at any point of in the list 
+		set: helps to change any element/value at any point of in the list. It does not allow dublicates 
 		remove: it's used to reomove or delet an element or a value in a list 
-	2. set:
-	3. map
-	4. queue
-	5. Contains: it is used to check if an element or value exist and retures a tru or false message.
-	6.isEmtpy: used to check the if the valuse inside the list is empty or not and displays a true or false message.
+	2. set: is a type of selection that does not allow dublicated values/element 
+	3. map: 
+	4. queue: First in selection
+	5. Contains: it is used to check if an element/value exist and retures a tru or false message.
+	6. isEmtpy: used to check the if the valuse inside the list is empty or not and displays a true or false message.
 	Note: we have a class called array list and link list.
 	Null: it's used to clear everthing int the arraylis class. same with clear
 		
