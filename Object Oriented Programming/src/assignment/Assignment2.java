@@ -1,6 +1,11 @@
 package assignment;
 
 /*
+    Abstarction 
+Hiding implementation details and showing only the necessary information to the user.
+Think of it like driving a car: You don't need to know how the engine works, 
+you just need to know how to use the steering wheel, brakes, and accelerator 🚗
+
  1.
   Abstract class: LibraryItem
   Implementing classes: Book, DVD
