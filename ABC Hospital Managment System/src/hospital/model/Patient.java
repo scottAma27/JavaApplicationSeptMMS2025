@@ -1,0 +1,87 @@
+package hospital.model;
+
+import java.time.LocalDate;
+
+public class Patient extends Person {
+    private int patientId;
+    private String bloodGroup;
+    private String genoType;
+    private String allergies;
+    private String emergencyContact;
+    private String emergencyPhone;
+    
+    public Patient(){
+        
+    }
+
+    public Patient(String bloodGroup, String genoType,
+            
+            String allergies, String emergencyContact, String emergencyPhone,
+            
+            String firstName, String lastName, char gender, LocalDate dateOfBirth,
+            
+            String phone, String email, String street, String city, String country) {
+        
+        super( firstName, lastName, gender, dateOfBirth, phone, email, street, city, country);
+        
+        this.bloodGroup = bloodGroup;
+        this.genoType = genoType;
+        this.allergies = allergies;
+        this.emergencyContact = emergencyContact;
+        this.emergencyPhone = emergencyPhone;
+    }
+
+    public int getPatientId() {
+        return patientId;
+    }
+    
+    public void setPatientId(int patientId){
+        this.patientId = patientId;
+    }
+    
+    public String getBloodGroup() {
+        return bloodGroup;
+    }
+
+    public void setBloodGroup(String bloodGroup) {
+        this.bloodGroup = bloodGroup;
+    }
+
+    public String getGenoType() {
+        return genoType;
+    }
+
+    public void setGenoType(String genoType) {
+        this.genoType = genoType;
+    }
+
+    public String getAllergies() {
+        return allergies;
+    }
+
+    public void setAllergies(String allergies) {
+        this.allergies = allergies;
+    }
+
+    public String getEmergencyContact() {
+        return emergencyContact;
+    }
+
+    public void setEmergencyContact(String emergencyContact) {
+        this.emergencyContact = emergencyContact;
+    }
+
+    public String getEmergencyPhone() {
+        return emergencyPhone;
+    }
+
+    public void setEmergencyPhone(String emergencyPhone) {
+        this.emergencyPhone = emergencyPhone;
+    }
+
+//    public void setPatientId(int aInt) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+    
+    
+}
